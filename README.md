@@ -2,7 +2,7 @@
 Entre no delirante e perigoso mundo do Javascript. Enfrente o dragão da Complexidade e entre no labirinto da recursão.
 
 ## Guia
- * [Introdução](ch0)
+ * Introdução
  * A planície Lógica
  * A floresta da repetição (laços de repetição)
  * A caverna das listas

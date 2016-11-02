@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h2>Índice</h2>
+  <ol>
+    {% for chapter in site.chapters %}
+      <li>
+          <a href="#{{ chapter.title | escape }}">{{ chapter.title }}</a>
+      </li>
+    {% endfor %}
+  </ol>
+  {% for chapter in site.chapters %}
+    <h2 id="{{ chapter.title | escape }}">{{ chapter.title }}</h2>
+
+    {{ chapter.content }}
+  {% endfor %}
+</div>
