@@ -4,8 +4,27 @@
 
 @import 'minima';
 
+img {
+  margin: 0 auto;
+  display: block;
+}
+
 .plot {
     background-color: #f4f4f4;
     margin: 25px;
-    padding: 25px;
+    padding: 20px;
+}
+
+.ex {
+  background-color: #ffffe0;
+  margin: 25px;
+  padding: 20px;
+}
+
+.chapter-division {
+  font-size: 30px;
+  word-spacing: 60px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 100px;
 }
