@@ -1,6 +1,6 @@
 jekyll:
   build: .
-  command: jekyll s -s docs --host 0.0.0.0 --force_polling
+  command: jekyll s -s docs --host 0.0.0.0 --force_polling --baseurl ''
   volumes:
     - ./docs.:/src/docs
   ports:
